@@ -1,0 +1,107 @@
+.shift-wrapper {
+    padding: 60px 20px;
+    text-align: center;
+    background: #000000;
+    color: white;
+    opacity: 0;
+    animation: fadeUp 1s ease-out forwards;
+    animation-delay: 0.3s;
+}
+
+.shift-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.shift-subtitle {
+    font-size: 15px;
+    opacity: 0.8;
+    margin-bottom: 45px;
+}
+
+
+
+.shift-grid {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 900px;
+    margin: auto;
+    text-align: left;
+}
+
+
+@media (max-width: 768px) {
+    .shift-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.shift-card {
+    position: relative;
+    padding: 28px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, #151331, #0b0a1a);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+
+}
+
+.section {
+    margin-bottom: 15px;
+}
+
+.section.traditional {
+    opacity: 0.4;
+}
+
+
+.section.modern {
+    opacity: 1;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: #9ab0ff;
+}
+
+.modern-title {
+    background: linear-gradient(90deg, #52b3ff, #a36bff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.section-icon {
+    font-size: 20px;
+    color: #9ab0ff;
+}
+
+.modern-icon {
+    color: #89ffd7;
+}
+
+.section-text {
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.modern-text {
+    color: #d7faff;
+}
+
+.shift-divider {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 10px 0 15px;
+}

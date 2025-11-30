@@ -1,0 +1,52 @@
+.community-section {
+    text-align: center;
+    padding: 90px 20px;
+    background: #05050a;
+    color: white;
+    font-family: "Inter", sans-serif;
+    opacity: 0;
+    animation: fadeUp 1s ease-out forwards;
+    animation-delay: 0.3s;
+
+}
+
+
+.community-title {
+    max-width: 900px;
+    margin: 0 auto 25px;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+
+.community-subtitle {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    font-size: 1.15rem;
+    opacity: 0.85;
+}
+
+
+
+.btn-community {
+    background: transparent;
+    border: 2px solid #9b6bff;
+    color: #b799ff;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+    margin: 0 auto;
+    gap: 10px;
+    font-weight: bold;
+}
+
+
+
+.btn-community:hover {
+    background: rgba(120, 85, 197, 0.838);
+    transform: scale(1.05);
+    color: white;
+}

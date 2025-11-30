@@ -1,0 +1,99 @@
+.why-section {
+    text-align: center;
+    padding: 60px 20px;
+    color: #fff;
+    opacity: 0;
+    animation: fadeUp 1s ease-out forwards;
+    animation-delay: 0.3s;
+}
+
+.why-section h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.why-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.why-card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 40px 25px;
+    border-radius: 18px;
+    width: 350px;
+    text-align: center;
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.why-card.first {
+    background: rgba(25, 17, 184, 0.05);
+}
+
+.why-card.second {
+    background: rgba(230, 15, 190, 0.05);
+}
+
+.why-card.third {
+    background: rgba(45, 210, 26, 0.05);
+}
+
+
+.why-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 10px 28px rgba(0, 0, 0, 0.4);
+}
+
+.icon-box {
+    width: 65px;
+    height: 65px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin: 0 auto 20px;
+    color: white;
+    font-weight: 600;
+}
+
+
+.icon-box.blue {
+    background: linear-gradient(135deg, #00aaff, #0088ff);
+}
+
+.icon-box.pink {
+    background: linear-gradient(135deg, #ff58e6, #9b4dff);
+}
+
+.icon-box.green {
+    background: linear-gradient(135deg, #00e69a, #00c978);
+}
+
+.why-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.why-card p {
+    font-size: 16px;
+    color: #c9c9c9;
+    line-height: 1.5;
+}
+
+
+@media (max-width: 900px) {
+    .why-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .why-card {
+        width: 90%;
+    }
+}

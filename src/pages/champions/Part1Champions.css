@@ -1,0 +1,35 @@
+.champions-section {
+    width: 100%;
+    text-align: center;
+    padding: 80px 0;
+    background: black;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeUp 1s ease-out forwards;
+    animation-delay: 0.3s;
+}
+
+
+.champions-title {
+    font-size: 52px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 90px;
+}
+
+
+.champions-gradient {
+    background: linear-gradient(90deg, #a855f7, #3b82f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+.champions-subtitle {
+    font-size: 18px;
+    color: #cccccc;
+    max-width: 650px;
+    margin: 0 auto;
+}

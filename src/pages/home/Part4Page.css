@@ -1,0 +1,69 @@
+.inspiration-section {
+    background-color: #000;
+    color: white;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeUp 1s ease-out forwards;
+    animation-delay: 0.3s;
+}
+
+
+.inspiration-box {
+    border: 1px solid #aa5bff;
+    border-radius: 30px;
+    max-width: 900px;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(135deg,
+            rgba(112, 61, 153, 0.2),
+            rgba(25, 25, 224, 0.3));
+
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 0.8s ease-out forwards;
+    animation-delay: 0.5s;
+}
+
+
+.inspiration-title {
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+
+}
+
+.inspiration-text {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    opacity: 0.9;
+
+
+}
+
+.highlightGradient {
+    background: linear-gradient(90deg, #52b3ff, #a36bff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.highlight {
+    color: #a36bff;
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

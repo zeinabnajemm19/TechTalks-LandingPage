@@ -1,0 +1,59 @@
+.Wasta-section {
+    padding: 70px 20px;
+    text-align: center;
+    background: linear-gradient(to bottom right, #0f0f0f 90%, #203036 95%);
+    color: white;
+    font-family: "Inter", sans-serif;
+    opacity: 0;
+    animation: fadeUp 1s ease-out forwards;
+    animation-delay: 0.3s;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.title span {
+    background: linear-gradient(90deg, #52b3ff, #a36bff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.subtitle {
+    font-size: 1.2rem;
+    opacity: 0.7;
+    margin-bottom: 40px;
+    background: linear-gradient(90deg, #5099e8, #9070c4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.paragraph {
+    color: rgb(128, 136, 136);
+    line-height: 1.5;
+    max-width: 600px;
+    margin: 0 auto;
+    white-space: normal;
+    font-size: 20px;
+}

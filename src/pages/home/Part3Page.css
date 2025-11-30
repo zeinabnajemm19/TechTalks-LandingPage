@@ -1,0 +1,86 @@
+.techtalks-section {
+    padding: 70px 20px;
+    text-align: center;
+    background: radial-gradient(circle at top, #1a0b2e, #0a0a0d 70%);
+    color: white;
+    font-family: "Inter", sans-serif;
+    opacity: 0;
+    animation: fadeUp 1s ease-out forwards;
+    animation-delay: 0.3s;
+}
+
+.discover-btn {
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.discover-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.title span {
+    background: linear-gradient(90deg, #52b3ff, #a36bff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.subtitle {
+    font-size: 1.2rem;
+    opacity: 0.7;
+    margin-bottom: 40px;
+}
+
+
+.content-card {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 35px 45px;
+    background: rgba(20, 15, 35, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    line-height: 1.7;
+    font-size: 1.1rem;
+    color: #eaeaea;
+    text-align: left;
+}
+
+.highlightPurple {
+    color: rgb(171, 86, 171);
+    font-weight: 600;
+}
+
+.highlightBlue {
+    color: #7cbbf2;
+    font-weight: 600;
+}
+
+.highlightBlue2 {
+    color: #5084cd;
+    font-weight: 600;
+}
+
+.highlight4 {
+    background: linear-gradient(90deg, #b18adc, #4b7bff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-weight: 600;
+}

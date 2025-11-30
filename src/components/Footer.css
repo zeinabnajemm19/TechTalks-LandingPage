@@ -1,0 +1,150 @@
+.footer {
+    background: black;
+    color: white;
+    padding: 40px 30px;
+    font-size: 14px;
+    padding-left: 90px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: left;
+}
+
+.footer-top {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+
+}
+
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 230px;
+
+}
+
+
+.footer-logo-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-logo {
+    width: 45px;
+}
+
+.footer-company-name {
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.footer-description {
+    opacity: 0.8;
+    line-height: 1.4;
+
+}
+
+
+.footer-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.footer-link:hover {
+    color: #4da3ff;
+    opacity: 1;
+}
+
+
+.footer-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-icon {
+    font-size: 22px;
+    transition: 0.2s;
+}
+
+.footer-icon:hover {
+    color: #4da3ff;
+}
+
+
+.footer-blue-line {
+    width: 100%;
+    height: 1px;
+    background: #bad8f8;
+    padding: 0px;
+    margin: 0px;
+    opacity: 0.2;
+
+}
+
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.footer-bottom-text {
+    opacity: 0.8;
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer-bottom-links {
+    display: flex;
+    gap: 15px;
+
+}
+
+.footer-bottom-link {
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer-bottom-link:hover {
+    text-decoration: underline;
+    color: #4da3ff;
+}
+
+@media (max-width: 900px) {
+    .footer {
+        padding-left: 30px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+}

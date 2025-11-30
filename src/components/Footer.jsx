@@ -11,7 +11,7 @@ export function Footer() {
                 <div className="footer-section">
                     <Link to="/" className="footer-logo-row" >
                         <img
-                            src="public/images/TechTalksLogo.webp"
+                            src="/images/TechTalksLogo.webp"
                             className="footer-logo"
                             alt="Logo"
                         />

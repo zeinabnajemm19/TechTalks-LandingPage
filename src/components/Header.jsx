@@ -19,7 +19,7 @@ export function Header({ activePage }) {
             <div className="header">
                 <div className="left-section">
                     <Link to="/" className="header-link">
-                        <img className="logo" src="public/images/TechTalksLogo.webp" />
+                        <img className="logo" src="/images/TechTalksLogo.webp" />
                         <span className="logo-text">Tech Talks</span>
                     </Link>
                 </div>

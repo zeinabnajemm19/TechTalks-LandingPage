@@ -6,31 +6,31 @@ const teamMembers = [
     {
         name: "Khaled Frayji",
         role: "Founder & CEO",
-        image: "public/images/khaled.png",
+        image: "/images/khaled.png",
         linkedin: "https://www.linkedin.com/in/khaledfrayji/"
     },
     {
         name: "Mustafa Elmheimid",
         role: "Co-Founder",
-        image: "public/images/mustafa.png",
+        image: "/images/mustafa.png",
         linkedin: "https://www.linkedin.com/in/mustafa-almheimid/"
     },
     {
         name: "Kinda Halaby",
         role: "Graphic Designer",
-        image: "public/images/Kinda.png",
+        image: "/images/Kinda.png",
         linkedin: "https://www.linkedin.com/in/kinda-halaby-25751a329/"
     },
     {
         name: "Hussein Mansour",
         role: "IT & System Engineer",
-        image: "public/images/hussein.png",
+        image: "/images/hussein.png",
         linkedin: "https://www.linkedin.com/in/hussein-mansour0/"
     },
     {
         name: "Qusai Okla",
         role: "Cybersecurity Specialist",
-        image: "public/images/Qusai.png",
+        image: "/images/Qusai.png",
         linkedin: "https://www.linkedin.com/in/qusai-okla-02589b263/"
     }
 ];
